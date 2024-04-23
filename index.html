@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EM CONSTRUÇÃO</title>
+    <link rel="icon" href="img/icon.gif" type="image/png">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: white;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        #banner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            filter: blur(5px) brightness(0.5);
+        }
+
+        #banner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        h1 {
+            position: relative;
+            z-index: 1;
+        }
+        .discord-icon{
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 9999;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="banner">
+        <img src="img/banner.gif" alt="Banner">
+    </div>
+
+    <a href="https://discord.gg/naujstore" target="_blank" class="discord-icon">
+        <img src="img/discord.png" height="76px">
+    </a>
+</body>
+</html>
